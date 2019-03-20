@@ -1,6 +1,10 @@
 const path = require("path");
 const router = require("express").Router();
+const contentRoutes = require("./content");
 const ignRoutes = require("./ign");
+
+//content route
+router.use("/content", contentRoutes);
 
 //ign route
 router.use("/ign", ignRoutes);

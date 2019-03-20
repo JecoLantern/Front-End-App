@@ -2,7 +2,7 @@ const axios = require("axios");
 const db =require("../models");
 
 module.exports = {
-    findall: function(req, res) {
+    findAll: function(req, res) {
         const { query: params } = req;
         axios
             .get("https://ign-apis.herokuapp.com/content?", { params })
