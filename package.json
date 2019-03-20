@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/JecoLantern/Front-End-App/issues"
   },
-  "homepage": "https://github.com/JecoLantern/Front-End-App#readme"
+  "homepage": "https://github.com/JecoLantern/Front-End-App#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
