@@ -1,13 +1,13 @@
 const axios = require("axios");
-const db =require("../models");
+const db = require("../models");
 
 module.exports = {
     findAll: function(req, res) {
-        const { query: params } = req;
         axios
-            .get("https://ign-apis.herokuapp.com/content?", { params })
-            .then(results => {
-                console.log(results)
+            .get("https://ign-apis.herokuapp.com/content?startIndex=30&count=5")
+            .then(json => {
+                console.log("hello this works?")
+                console.log(json)
                 results.data.filter(
                     result =>
                         result.thumbnails[2].url &&

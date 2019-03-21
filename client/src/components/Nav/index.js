@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import Logo from "../IconLogo/logo.jsx";
 // import "./style.css";
 
 class Nav extends Component {
@@ -29,7 +30,7 @@ class Nav extends Component {
     render() {
         return (
             <nav className="navbar navbar-expand-lg navbar-light bg-light mb-2">
-                <Link className="navbar-brand" to="/">Google Books</Link>
+                <Link className="navbar-brand" to="/">          <Logo/></Link>
                 <button
                     onClick={this.toggleNav}
                     className="navbar-toggler"
