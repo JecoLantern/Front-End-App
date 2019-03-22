@@ -13,39 +13,39 @@ class Home extends Component {
         super(props)
         this.state = {
             ignContent: [],
+            commentCount: [],
             message: "Click to Load Contents!"
         };
     }
 
     getContent = () => {
-        API.getContent(this.state.q)
+        API.getContent(this.state)
         .then(res => {
-            this.setState({ ignContent: res.data })
+            console.log(res.data[0].data)
+            this.setState({ ignContent: res.data[0].data })
+            console.log(this.state)
         })
         .catch(() => 
         this.setState({ ignContent: [], message: "No content here!"})
+        );
+    };
+    getCommentCount = () => {
+        API.getContent(this.state)
+        .then(res => {
+            console.log(res.data[0].content[0])
+            this.setState({ commentCount: res.data[0].content })
+            console.log(this.state)
+        })
+        .catch(() => 
+        this.setState({ commentCount: [], message: "No content here!"})
         );
     };
 
     handleFormSubmit = event => {
         event.preventDefault();
         this.getContent();
+        this.getCommentCount();
     }
-
-    handleContentSave = id => {
-        console.log("hey hey saved!");
-        console.log(this.state.ignContent)
-        const content = this.state.ignContent.find(contents => contents.id === id);
-
-        API.saveContent({
-            contentId: content.id,
-            headline: content.metadata.headline,
-            authors: content.authors,
-            description: content.metadata.description,
-            image: content.thumbnails[3].url,
-            tags: content.tags
-        }).then(() => this.getContent());
-    };
 
     render() {
         return (
@@ -57,11 +57,9 @@ class Home extends Component {
                         </Jumbotron>
                     </Col>
                     <Col size="md-12">
-                        <Card title="Article Search" icon="far fa-book">
+                        <Card title="Content Search" icon="far fa-book">
                             <Form 
-                                // handleInputChange={this.handleInputChange}
                                 handleFormSubmit={this.handleFormSubmit}
-                                // q={this.state.q}
                             />
                         </Card>
                     </Col>
@@ -71,18 +69,11 @@ class Home extends Component {
                         <Card title="Results">
                             {this.state.ignContent.length ? (
                                 <List>
-                                    {this.state.ignContent.map(content => (
+                                    { this.state.ignContent.map(content => (
                                         <Content 
-                                            key={content.id}
-                                            authors={content.metadata.authors}
+                                            key={content.contentId}
                                             description={content.metadata.description}
-                                            headline={content.metadata.headline}
-                                            Button={() => (
-                                                <button 
-                                                    onClick={() => this.handleContentSave(content.id)} className="btn btn-primary ml-2"
-                                                >Save
-                                                </button>
-                                            )}
+                                            image={content.thumbnails[2].url}
                                         />
                                     ))}
                                 </List>

@@ -1,0 +1,156 @@
+{
+    "count":5,
+    "startIndex":30,
+    "data":[{
+        "contentId":"f7dac73ef836ecbdca395ba03a714e78",
+        "contentType":"video",
+        "thumbnails":[{
+            "url":"https://assets1.ignimgs.com/thumbs/userUploaded/2019/3/7/ignnews20151080thumb-1551981207861_compact.jpg",
+            "size":"compact",
+            "width":306,
+            "height":172
+            },{
+            "url":"https://assets1.ignimgs.com/thumbs/userUploaded/2019/3/7/ignnews20151080thumb-1551981207861_medium.jpg",
+            "size":"medium",
+            "width":466,
+            "height":262
+            },{
+            "url":"https://assets1.ignimgs.com/thumbs/userUploaded/2019/3/7/ignnews20151080thumb-1551981207861_large.jpg",
+            "size":"large",
+            "width":626,
+            "height":352
+            }],
+        "metadata":{
+            "title":"Star Wars: Galaxy's Edge Theme Park Opening Dates Announced - IGN News",
+            "description":"Star Wars: Galaxy’s Edge will be opening at Disneyland Resort in Anaheim, California on May 31, 2019 and Walt Disney World Resort in Orlando, Florida on August 29, 2019.",
+            "publishDate":"2019-03-07T17:35:00+0000",
+            "slug":"star-wars-galaxys-edge-theme-park-opening-dates-announced",
+            "networks":["ign"],
+            "state":"published",
+            "duration":48,
+            "videoSeries":"IGN NEWS"},
+            "tags":["entertainment","ign-news","ign","breaking-news","theatre","theater","cinema","news","game-gear","star-wars"]
+        },{
+        "contentId":"70d2be9148b90577c3445e93cba37b37",
+        "contentType":"video",
+        "thumbnails":[{
+            "url":"https://assets1.ignimgs.com/thumbs/userUploaded/2019/3/7/forhonorthumb-1551979760592_compact.jpg",
+            "size":"compact",
+            "width":306,
+            "height":172
+            },{
+            "url":"https://assets1.ignimgs.com/thumbs/userUploaded/2019/3/7/forhonorthumb-1551979760592_medium.jpg",
+            "size":"medium",
+            "width":466,
+            "height":262
+            },{
+            "url":"https://assets1.ignimgs.com/thumbs/userUploaded/2019/3/7/forhonorthumb-1551979760592_large.jpg",
+            "size":"large",
+            "width":626,
+            "height":352
+            }],
+        "metadata":{
+            "title":"For Honor - Weekly Content Update for Week of March 7, 2019 Trailer",
+            "description":"This week's content update brings four elite outfits, one per faction including Fortunate Spirit, Falcon's Reach, Lucky Trickster and Triad of Crows.",
+            "publishDate":"2019-03-07T17:30:00+0000",
+            "slug":"for-honor-weekly-content-update-for-week-of-march-7-2019-trailer",
+            "networks":["ign"],
+            "state":"published",
+            "duration":127,
+            "videoSeries":"none"},
+            "tags":["trailer","xbox-one","for-honor","games","action","ubisoft","ubisoft-montreal","pc","ps4"]
+        },{
+        "contentId":"e4936ef8e528b4e27a4cb4d36c0c82ef",
+        "contentType":"video",
+        "thumbnails":[{
+            "url":"https://assets1.ignimgs.com/thumbs/userUploaded/2019/3/7/bombercrewthumb-1551979132342_compact.jpg",
+            "size":"compact",
+            "width":306,
+            "height":172
+            },{
+            "url":"https://assets1.ignimgs.com/thumbs/userUploaded/2019/3/7/bombercrewthumb-1551979132342_medium.jpg",
+            "size":"medium",
+            "width":466,
+            "height":262
+            },{
+            "url":"https://assets1.ignimgs.com/thumbs/userUploaded/2019/3/7/bombercrewthumb-1551979132342_large.jpg",
+            "size":"large",
+            "width":626,
+            "height":352
+            }],
+        "metadata":{
+            "title":"Bomber Crew: American Edition - Official Console Announcement Trailer",
+            "description":"The American Edition, featuring the USAAF DLC, is coming to PlayStation 4, Xbox One and Nintendo Switch on March 12.",
+            "publishDate":"2019-03-07T17:19:00+0000",
+            "slug":"bomber-crew-american-edition-official-console-announcement-trailer",
+            "networks":["ign"],
+            "state":"published",
+            "duration":23,
+            "videoSeries":"none"},
+            "tags":["trailer","nintendo-switch","bomber-crew","games","simulation","strategy","flight","curve-digital","runner-duck","ps4"]
+        },{
+        "contentId":"5c811f27e4b0c3a735a3544f",
+        "contentType":"article",
+        "thumbnails":[{
+            "url":"https://assets1.ignimgs.com/2019/03/07/blogroll-0307-1551974748401_compact.jpg",
+            "size":"compact",
+            "width":306,
+            "height":172
+            },{
+            "url":"https://assets1.ignimgs.com/2019/03/07/blogroll-0307-1551974748401_medium.jpg",
+            "size":"medium",
+            "width":466,
+            "height":262
+            },{
+            "url":"https://assets1.ignimgs.com/2019/03/07/blogroll-0307-1551974748401_large.jpg",
+            "size":"large",
+            "width":626,
+            "height":352
+            }],
+        "metadata":{
+            "headline":"Daily Deals: Up to $400 off Razer, Asus, MSI, Alienware, and Dell Gaming Laptops",
+            "description":"Alienware GTX 1080 Gaming Desktop for $1126, GTX 1060 Laptop for $792, GTX 1050 Laptop for $599, GTX 1080 Laptop for $1936, and More.",
+            "publishDate":"2019-03-07T16:11:38+0000",
+            "slug":"daily-deals-up-to-400-off-razer-asus-msi-alienware-and-dell-gaming-laptops",
+            "networks":["ign"],
+            "state":"published"},
+            "tags":["daily-deals","novideo","tech","us-daily-deals"],
+            "authors":["Eric Song","IGN Staff"]
+        },{
+        "contentId":"5c805005e4b0c3a735a353f2",
+        "contentType":"article",
+        "thumbnails":[{
+            "url":"https://assets1.ignimgs.com/2019/03/06/wrath-smaller-1551912893193_compact.png",
+            "size":"compact",
+            "width":306,
+            "height":172
+            },{
+            "url":"https://assets1.ignimgs.com/2019/03/06/wrath-smaller-1551912893193_medium.png",
+            "size":"medium",
+            "width":466,
+            "height":262
+            },{
+            "url":"https://assets1.ignimgs.com/2019/03/06/wrath-smaller-1551912893193_large.png",
+            "size":"large",
+            "width":626,
+            "height":352
+            }],
+        "metadata":{
+            "headline":"Wrath: Aeon of Ruin Is an FPS Made in the Original Quake Engine, but It Feels Brand New",
+            "description":"Wrath: Aeon of Ruin is a brand new, full-fledged FPS made in an engine from 1996, and it's coming to Switch.",
+            "publishDate":"2019-03-07T15:30:31+0000",
+            "slug":"wrath-aeon-of-ruin-announced-3d-realms-quake-engine-fps-nintendo-switch-pc-xbox-one-ps4",
+            "networks":["ign"],
+            "state":"published"},
+            "tags":["preview","1c-company","3d-realms","game","killpixel-games","pc","ps4","shooter","switch","wrath-aeon-of-ruin"],
+            "authors":["Tom Marks"]
+        }
+    ],
+    "content":[{
+        "id":"3de45473c5662f25453551a2e1cb4e6e",
+        "count":38
+        },{
+        "id":"63a71f01cca67c9bbf5e7b6f091d551d",
+        "count":0
+        }]
+}

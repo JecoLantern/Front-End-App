@@ -4,10 +4,9 @@ const db = require("../models");
 module.exports = {
     findAll: function(req, res) {
         axios
-            .get("https://ign-apis.herokuapp.com/content?startIndex=30&count=5")
-            .then(json => {
-                console.log("hello this works?")
-                console.log(json)
+            .get("http://localhost:3001/api/content")
+            .then(results => {
+                console.log(results)
                 results.data.filter(
                     result =>
                         result.thumbnails[2].url &&
