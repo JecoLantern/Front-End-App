@@ -17,7 +17,7 @@ function Content({ contentId, title, headline, description, image, comment}) {
                     <img className="img-thumbnail img-fluid w-100" src={image} alt={contentId} />
                 </Col>
                 <Col size="12 sm-8 md-10">
-                    <p>{description}</p>
+                    <p id="describe">{description}</p>
                     <hr></hr>
                     <p>{comment}</p>
                 </Col>
